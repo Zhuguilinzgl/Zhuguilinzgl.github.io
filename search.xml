@@ -4,9 +4,47 @@
   
     
     <entry>
+      <title>linux的基础命令</title>
+      <link href="2021/06/06/linux%E5%9F%BA%E7%A1%80%E4%BA%8C/"/>
+      <url>2021/06/06/linux%E5%9F%BA%E7%A1%80%E4%BA%8C/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><center>centos的基础命令</center>]]></content>
+      
+      
+      <categories>
+          
+          <category> linux </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>linux的基础命令</title>
+      <link href="2021/06/06/linux%E5%9F%BA%E7%A1%80%E4%B8%80/"/>
+      <url>2021/06/06/linux%E5%9F%BA%E7%A1%80%E4%B8%80/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><center>centos的基础命令</center><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line">## 常用的系统工作命令</span><br><span class="line">echo打印到屏幕</span><br><span class="line">echo [字符串][变量]</span><br><span class="line"></span><br><span class="line">date查看时间|修改时间</span><br><span class="line">date -s &quot;修改时间&quot;</span><br><span class="line"></span><br><span class="line">timedatectl也是用于设置系统时间</span><br><span class="line">list-timedatectl列出已知区域</span><br><span class="line">timedatectl  set-time-zone Asia/Shanghai  时间区域不是上海可以使用该命令修改为上海</span><br><span class="line"></span><br><span class="line">reboot重启</span><br><span class="line"></span><br><span class="line">poweroff关机</span><br><span class="line"></span><br><span class="line">wget下载网络文件</span><br><span class="line">-p参数可以下载到指定目录</span><br><span class="line">一般需要安装该命令，使用 “ dnf  install -y wget  ” 安装该命令</span><br><span class="line"></span><br><span class="line">ps用于查看系统中的进程</span><br><span class="line">-a显示所以进程</span><br><span class="line">-u用户以及其他详细信息</span><br><span class="line">-x显示没有控制终端的进程</span><br><span class="line">注：R（运行），S（中断），D（不可中断），Z（僵死），T（停止）</span><br><span class="line"></span><br><span class="line">pstree树状图形式展开进程之间的关系</span><br><span class="line"></span><br><span class="line">top用于动态监视进程活动以及系统负载信息</span><br><span class="line"></span><br><span class="line">nice调整进程优先级</span><br><span class="line">上面top命令输出结果中的RP和NI值代表的是进程的优先级。（数值越低越优先，取值范围-20到19）</span><br><span class="line"></span><br><span class="line">pidof查看服务进程PID</span><br><span class="line"></span><br><span class="line">kill用于指定关闭某个进程</span><br><span class="line">如果关闭不上，带上一个-9参数，代表最高级别杀死进程</span><br><span class="line"></span><br><span class="line">killall用于终止某个指定名称的服务所对应的全部进程</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> linux </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>思゛</title>
-      <link href="2021/06/01/%E7%AC%AC%E4%B8%80%E7%AF%87/"/>
-      <url>2021/06/01/%E7%AC%AC%E4%B8%80%E7%AF%87/</url>
+      <link href="2021/06/01/%E6%80%9D/"/>
+      <url>2021/06/01/%E6%80%9D/</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><center><b>青春</b></center><center>青春不是年华，而是心境；</center><center>青春不是桃面、丹唇、柔膝，而是深沉的意志，恢宏的想象，炙热的恋情；</center><center>青春是生命的深泉在涌流。</center><center>青春气贯长虹，勇锐盖过怯弱，进取压倒苟安。</center><center>如此锐气，二十后生而有之，六旬男子则更多见。</center><center>年岁有加，并非垂老，理想丢弃，方堕暮年。</center><center>岁月悠悠，衰微只及肌肤；</center><center>热忱抛却，颓废必致灵魂。</center><center>忧烦，惶恐，丧失自信，定使心灵扭曲，意气如灰。</center><center>无论年届花甲，拟或二八芳龄，心中皆有生命之欢乐，奇迹之诱惑，孩童般天真久盛不衰。</center><center>人人心中皆有一台天线，只要你从天上人间接受美好、希望、欢乐、勇气和力量的信号，你就青春永驻，风华常存。</center><center>一旦天线下降，锐气便被冰雪覆盖，玩世不恭、自暴自弃油然而生，即使年方二十，实已垂垂老矣；</center><center>然则只要树起天线，捕捉乐观信号，你就有望在八十高龄告别尘寰时仍觉年轻。</center><span id="more"></span>]]></content>
       
