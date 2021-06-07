@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>linux的基础命令</title>
-      <link href="2021/06/06/linux%E5%9F%BA%E7%A1%80%E4%BA%8C/"/>
-      <url>2021/06/06/linux%E5%9F%BA%E7%A1%80%E4%BA%8C/</url>
+      <title>linux文件目录管理命令</title>
+      <link href="2021/06/07/linux%E5%9F%BA%E7%A1%80%E4%BA%94/"/>
+      <url>2021/06/07/linux%E5%9F%BA%E7%A1%80%E4%BA%94/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><center>centos的基础命令</center>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><center>centos的基础命令</center><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line">## 文件目录管理命令</span><br><span class="line">touch创建文件|修改文件时间</span><br><span class="line">-a修改读取时间</span><br><span class="line">-m修改修改时间</span><br><span class="line">-d同时修改r与w</span><br><span class="line"></span><br><span class="line">mkdir用于创建目录</span><br><span class="line"></span><br><span class="line">cp复制</span><br><span class="line">-p保留原始文件的属性</span><br><span class="line">-d若对象为链接文件，则保留该文件属性</span><br><span class="line">-r 递归持续复制</span><br><span class="line">-i 若目标文件存在则询问是否覆盖</span><br><span class="line">-a 相当于 -pdr</span><br><span class="line"></span><br><span class="line">mv剪切|重命名</span><br><span class="line"></span><br><span class="line">rm删除</span><br><span class="line">-r删除目录</span><br><span class="line">-f强行执行</span><br><span class="line"></span><br><span class="line">dd复制复制数据块|转换文件</span><br><span class="line">格式：dd if= of= count= bs=</span><br><span class="line">if  输入文件名称</span><br><span class="line">of  输出文件名称</span><br><span class="line">bs  设置每个块的大小</span><br><span class="line">count  设置要复制快的个数</span><br><span class="line"></span><br><span class="line">file查看文件类型</span><br><span class="line"></span><br><span class="line">tar压缩打包文件</span><br><span class="line">-czvf创建压缩文件</span><br><span class="line">-xzvf解压缩文件</span><br></pre></td></tr></table></figure>]]></content>
       
       
       <categories>
@@ -23,7 +23,64 @@
     
     
     <entry>
-      <title>linux的基础命令</title>
+      <title>linux文本文件编辑命令</title>
+      <link href="2021/06/07/linux%E5%9F%BA%E7%A1%80%E5%9B%9B/"/>
+      <url>2021/06/07/linux%E5%9F%BA%E7%A1%80%E5%9B%9B/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><center>centos的基础命令</center><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br></pre></td><td class="code"><pre><span class="line">## 文本编辑命令</span><br><span class="line"></span><br><span class="line">cat短文本</span><br><span class="line"></span><br><span class="line">more长文本</span><br><span class="line"></span><br><span class="line">head查看文本文件的前N行</span><br><span class="line">列查看zgl.txt文件前10行：    head -n 10 zgl.txt     </span><br><span class="line"></span><br><span class="line">tail查看纯文本文件后N行或持续刷新文件的最新内容</span><br><span class="line">持续刷新文件的最新内容:tail -f /var/messages</span><br><span class="line"></span><br><span class="line">tr替换字符</span><br><span class="line">cat zgl.txt | tr a b       查看zgl.txt文件里的内容，然后把a换成b</span><br><span class="line"></span><br><span class="line">wc统计文本行数、字数、字节数</span><br><span class="line">-l行</span><br><span class="line">-w单词</span><br><span class="line">-c字节</span><br><span class="line"></span><br><span class="line">stat查看文件具体的存储细节和时间等信息</span><br><span class="line">linux系统中文件一共包含三种时间状态</span><br><span class="line">`Access Time  最后一次访问时间，简称Atime</span><br><span class="line">`Modify Time  最后一次内容被修改时间，简称 Mtime</span><br><span class="line">`Change Time  文件属性最后一次被修改时间，简称Ctime</span><br><span class="line"></span><br><span class="line">grep提取文本内的内容</span><br><span class="line">-v反向</span><br><span class="line">-n显示行数</span><br><span class="line"></span><br><span class="line">cut用于提取文本内的内容</span><br><span class="line">按列搜索不仅需要使用-f参数来设置需要看的列数，还需要使用-d参数来设置间隔符号。</span><br><span class="line">示例： cut  -d ： -f 1 /etc/passwd</span><br><span class="line"></span><br><span class="line">diff 用于比较文件之间的差异</span><br><span class="line">-c比较具体的不同</span><br><span class="line"></span><br><span class="line">uniq用于去除文本中的连续重复</span><br><span class="line">该命令的作用是用来去除文本文件中连续的重复行，中间不能夹杂其他文本行</span><br><span class="line"></span><br><span class="line">sort用于对文本内容进行再排序</span><br><span class="line">sort[参数]文件名称</span><br><span class="line">-f忽略大小写</span><br><span class="line">-b忽略缩进与空格</span><br><span class="line">-n以数值型排序</span><br><span class="line">-r反向排序</span><br><span class="line">-u去除重复行</span><br><span class="line">-t指定间隔符</span><br><span class="line">-k设置字段范围</span><br><span class="line">与uniq命令不同，sort命令不论内容之间是否夹杂有其它内容，只要有两个一摸一样的内容行，立马就可以使用-u参数进行去重操作</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> linux </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>linux查找定位命令</title>
+      <link href="2021/06/07/linux%E5%9F%BA%E7%A1%80%E4%B8%89/"/>
+      <url>2021/06/07/linux%E5%9F%BA%E7%A1%80%E4%B8%89/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><center>centos的基础命令</center><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">## 查找定位命令</span><br><span class="line">pwd显示当前所处路径</span><br><span class="line"></span><br><span class="line">cd进入</span><br><span class="line"></span><br><span class="line">ls查看</span><br><span class="line">-a查看所有</span><br><span class="line">-l查看详细信息</span><br><span class="line">-Z查看linux上下行</span><br><span class="line"></span><br><span class="line">tree用于树状图形式列出目录内容以及结构</span><br><span class="line"></span><br><span class="line">find用于查找文件位置</span><br><span class="line">使用格式：find [查找范围] 寻找条件</span><br><span class="line">-name匹配名称</span><br><span class="line">-perm匹配权限</span><br><span class="line">-user匹配所有者</span><br><span class="line">-group匹配所有组</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> linux </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>linux的系统状态检测命令</title>
+      <link href="2021/06/06/linux%E5%9F%BA%E7%A1%80%E4%BA%8C/"/>
+      <url>2021/06/06/linux%E5%9F%BA%E7%A1%80%E4%BA%8C/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><center>centos的基础命令</center><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line">## 系统状态检测命令</span><br><span class="line">ifconfig用于查看ip、mac、流入和流出的流量</span><br><span class="line"></span><br><span class="line">uname用于查看内核版本与系统架构信息</span><br><span class="line">-a更加完整</span><br><span class="line"></span><br><span class="line">uptime用于查看负载信息（1,5,15分钟）</span><br><span class="line"></span><br><span class="line">free用于查看系统内存使用情况</span><br><span class="line">-h更好的显示</span><br><span class="line"></span><br><span class="line">who用于查看当前登入主机的用户终端信息</span><br><span class="line"></span><br><span class="line">last用于查看主机被访问记录</span><br><span class="line"></span><br><span class="line">ping测试网络连通性</span><br><span class="line"></span><br><span class="line">tracepath用于显示数据包到达目的主机经过的路由信息</span><br><span class="line"></span><br><span class="line">netstat用于显示网络连接、路由表、接口状态等</span><br><span class="line">-a 所有连接</span><br><span class="line">-p 使用中的</span><br><span class="line">-t tcp协议</span><br><span class="line">-u udp协议</span><br><span class="line">-n 使用ip地址，不使用域名</span><br><span class="line">-l 列出正在监听的服务状态</span><br><span class="line">-i 现在网卡列表信息</span><br><span class="line">-r 路由表信息</span><br><span class="line"></span><br><span class="line">history显示历史执行过的命令</span><br><span class="line">-c 清除所有记录</span><br><span class="line">！+对应的数字可以重复执行某一条命令</span><br><span class="line"></span><br><span class="line">sosreport用于收集系统配置和框架信息输出诊断文档</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> linux </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>linux常用的系统工作命令</title>
       <link href="2021/06/06/linux%E5%9F%BA%E7%A1%80%E4%B8%80/"/>
       <url>2021/06/06/linux%E5%9F%BA%E7%A1%80%E4%B8%80/</url>
       
